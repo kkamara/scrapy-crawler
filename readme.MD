@@ -2,6 +2,13 @@
 
 Crawls a quotes site for data.
 
+## Crawl a link on the fly
+
+```bash
+scrapy shell 'https://quotes.toscrape.com/page/1/'
+
+```
+
 ## Installation
 
 Make sure you have [Docker Compose](https://docs.docker.com/compose/install/) installed.
@@ -31,13 +38,6 @@ make stop  # stop your docker container
 ```
 .\ps\run.ps1 start # build & run your script
 .\ps\run.ps1 stop  # stop your docker container
-```
-
-## Crawl a link on the fly
-
-```bash
-scrapy shell 'https://quotes.toscrape.com/page/1/'
-
 ```
 
 ## Want to use PhP instead? 
