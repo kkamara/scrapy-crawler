@@ -35,8 +35,10 @@ make stop  # stop your docker container
 
 ## Crawl a link on the fly
 
+```bash
 scrapy shell 'https://quotes.toscrape.com/page/1/'
 
+```
 
 ## Want to use PhP instead? 
 [PhP Docker Skeleton](https://github.com/kkamara/php-docker-skeleton)
@@ -47,4 +49,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[GPL-3.0](https://choosealicense.com/licenses/gpl-3.0/)
+[BSD](https://opensource.org/licenses/BSD-3-Clause)
